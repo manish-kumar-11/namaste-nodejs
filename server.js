@@ -1,6 +1,6 @@
 const http = require('node:http');
 const server = http.createServer((req, res) => {
-  res.writeHead(200);
+  //res.writeHead(200);
   if (req.url === "/getSecretData") {
     res.end("There is no secret data");
   }
